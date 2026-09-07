@@ -11,7 +11,7 @@ const Home = () => {
             consectetur elit. Vero blanditid adipsci minima reiciendia a 
             autum assumenda dolore.
           </p>
-          <div className={styles.button}>
+          <div className={styles.buttons}>
               <button className={styles.button}>Learn More</button>
               <button className={styles.button}>Contact</button>
           </div>

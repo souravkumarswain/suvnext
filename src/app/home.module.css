@@ -4,6 +4,7 @@
 }
 
 .textContainer{
+  display: flex;
   flex: 1;
   flex-direction: column;
   gap: 50px;
@@ -13,7 +14,6 @@
 }
 .title{
   font-size: 60px;
-  margin-bottom: 10px;
 }
 .buttons{
   display: flex;
@@ -27,7 +27,7 @@
   border-radius: 5px;
 }
 .button:first-child{
-  background-color: var(--btnbg);
+  background-color: var(--btn);
   color:var(--text);
 }
 .brands{
